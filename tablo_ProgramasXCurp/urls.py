@@ -18,5 +18,5 @@ from carga_datos.views import cargacatalogo
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^cargacatalogo/', cargacatalogo),
+    url(r'^cargacatalogo/', cargacatalogo, name='cargacatalogo'),
 ]

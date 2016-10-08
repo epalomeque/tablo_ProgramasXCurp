@@ -9,7 +9,7 @@ def cargacatalogo(request):
         if form.is_valid():
             newdoc = archivo(nombre_archivo = request.POST['nombre_archivo'],ubicacion_archivo = request.FILES['ubicacion_archivo'])
             newdoc.save(form)
-            return redirect("uploads")
+            return redirect("cargacatalogo")
     else:
         form = UploadForm()
     #tambien se puede utilizar render_to_response
