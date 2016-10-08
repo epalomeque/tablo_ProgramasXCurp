@@ -1,1 +1,3 @@
 Subir archivos con Django -- https://www.uno-de-piera.com/subir-archivos-con-django/
+
+Creación, carga y lectura de archivos de texto -- http://pythonya.appspot.com/detalleconcepto?deta=Creaci%C3%B3n,%20carga%20y%20lectura%20de%20archivos%20de%20texto
